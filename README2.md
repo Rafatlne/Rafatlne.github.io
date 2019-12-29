@@ -12,3 +12,11 @@ git branch
 ```
 git clone --single-branch --branch <branchname> <remote-repo>
 ```
+
+### 4. I can't dynamically added path file in the src because for the webpack
+
+##### Information Link
+[stackoverflow](https://stackoverflow.com/questions/56624817/passing-and-binding-img-src-from-props-in-vue-js)
+[webpack](https://webpack.js.org/guides/dependency-management/#requirecontext)
+[github](https://github.com/webpack/webpack/issues/4921)
+[github](https://github.com/vuejs/vue-loader/issues/896#issuecomment-316697682)
