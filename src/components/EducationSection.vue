@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="resume__section">
     <h1 class="heading__main">Education</h1>
     <article v-for="value in education" :key="value.id">
       <header>

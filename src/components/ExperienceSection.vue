@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="resume__section">
     <h1 class="heading__main">Experience</h1>
     <article v-for="value in experience" :key="value.id">
       <header>
@@ -10,8 +10,8 @@
         <span class="span">
           <address class="para__style">{{ value.location }}</address>
           <time class="time">{{ value.date.startDate }}</time>
-          <time v-if="value.date.endDate !== null"
-            >to {{ value.date.endDate }}</time
+          <time v-if="value.date.endDate !== null">
+            to {{ value.date.endDate }}</time
           >
         </span>
       </header>

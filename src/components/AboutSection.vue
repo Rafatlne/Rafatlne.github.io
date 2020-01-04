@@ -107,13 +107,18 @@
       </section>
       <ExperienceSection experienceJsonName="experience.json" />
       <EducationSection educationJsonName="education.json" />
+      <ProjectSection projectJsonName="project.json" />
     </div>
+    <FooterSection />
   </div>
 </template>
 
 <script>
 import ExperienceSection from "./ExperienceSection.vue";
 import EducationSection from "./EducationSection.vue";
+import ProjectSection from "./ProjectSection.vue";
+import FooterSection from "./FooterSection.vue";
+
 import GetJson from "../mixins/GetJson";
 const getJson = new GetJson();
 
@@ -121,7 +126,9 @@ export default {
   name: "AboutSection",
   components: {
     ExperienceSection,
-    EducationSection
+    EducationSection,
+    ProjectSection,
+    FooterSection
   },
   props: {
     avatar_name: String,
