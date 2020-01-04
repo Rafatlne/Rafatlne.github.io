@@ -1,11 +1,5 @@
 <template>
   <div class="about">
-    <!-- <ul>
-      <li v-for="(item, key, index) in aboutData" :key="item.id">
-        {{ item }} - {{ key }} - {{ index }}
-      </li>
-      <li>{{ avatar }}</li>
-    </ul>-->
     <div>
       <section class="resume__section">
         <div class="avatar-wrapper">
@@ -112,19 +106,22 @@
         </div>
       </section>
       <ExperienceSection experienceJsonName="experience.json" />
+      <EducationSection educationJsonName="education.json" />
     </div>
   </div>
 </template>
 
 <script>
 import ExperienceSection from "./ExperienceSection.vue";
+import EducationSection from "./EducationSection.vue";
 import GetJson from "../mixins/GetJson";
 const getJson = new GetJson();
 
 export default {
   name: "AboutSection",
   components: {
-    ExperienceSection
+    ExperienceSection,
+    EducationSection
   },
   props: {
     avatar_name: String,
