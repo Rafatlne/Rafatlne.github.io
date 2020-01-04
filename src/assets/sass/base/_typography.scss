@@ -1,0 +1,22 @@
+// Oswald Font
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+
+// Lato Font
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+//Open Sans
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+h1 {
+    font-family: 'Oswald', 'Georgia', 'Times New Roman', serif;
+    color: $headingColor;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 1.31rem 0rem;
+}
+
+a {
+    font-family: 'Lato', 'Open Sans', serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+}

@@ -1,0 +1,123 @@
+.about {
+    margin: 2.8rem 1.4rem;
+}
+
+.avatar-wrapper {
+    width: 100px;
+    height: 100px;
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.header-about {
+    margin-top: 2.345rem;
+    margin-bottom: 0.875rem;
+    line-height: 120%;
+}
+
+.designation {
+    display: block;
+}
+
+.span__underline {
+    display: block;
+
+    a {
+        color: $headingColor;
+        transition: all 0.3s ease 0s;
+        text-align: center;
+
+        &:hover {
+            border-bottom: 1px solid $royalBlue;
+            color: $royalBlue;
+        }
+    }
+}
+
+.span__hobby {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.personal {
+    margin: 2.8rem 0;
+}
+
+.icon__img {
+    width: 1.4rem;
+    height: auto;
+    margin-right: 0.3rem;
+}
+
+.icon__socials {
+    width: 2.1rem;
+    height: auto;
+    margin-right: 0.3rem;
+}
+
+
+.resume__section {
+    margin-bottom: 5.6rem;
+}
+
+.border__line::before {
+    content: "";
+    display: block;
+    width: 5rem;
+    height: 0.2rem;
+    background: #3c78d8;
+    margin: 1rem 0;
+}
+
+.para__style {
+    font-style: italic;
+}
+
+.preference-label {
+    margin: 1em 0 0.5em;
+    color: #646464;
+}
+
+.post-tag {
+    font-size: 85%;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+    padding: .2em .6em;
+    border-radius: 3px;
+    transition: all .15s ease-in-out;
+}
+
+.hobby-tag {
+    color: $olive;
+    background-color: $pale-olive;
+    border-color: transparent;
+
+    &:hover {
+        background-color: $whitish-olive;
+    }
+}
+
+.interest-tag {
+    color: $light-blue;
+    background-color: $pale-blue;
+    border-color: transparent;
+
+    &:hover {
+        background-color: $whitish-blue;
+    }
+}
+
+.disliked-tag {
+    color: $light-ash;
+    background-color: $pale-ash;
+    border-color: transparent;
+
+    &:hover {
+        background-color: $whitish-ash;
+    }
+}

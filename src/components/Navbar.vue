@@ -1,16 +1,48 @@
 <template>
-  <nav>
-    <div class="nav-wrapper">
-      <div class="container">
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+  <div class="container">
+    <header>
+      <nav>
+        <ul class="nav__links">
           <li>
-            <router-link to="/">About</router-link>
+            <a
+              href="#"
+              :class="[
+                currentPage.includes('about') ? activeClass : '',
+                'notActive'
+              ]"
+            >
+              <router-link to="/" exact>About</router-link>
+            </a>
           </li>
           <li>
-            <router-link to="/resume">Resume</router-link>
+            <a
+              href="#"
+              :class="[
+                currentPage.includes('resume') ? activeClass : '',
+                'notActive'
+              ]"
+            >
+              <router-link to="/resume" exact>Resume</router-link>
+            </a>
           </li>
         </ul>
-      </div>
-    </div>
-  </nav>
+      </nav>
+    </header>
+  </div>
 </template>
+<script>
+export default {
+  name: "Navbar",
+  data() {
+    return {
+      activeClass: "active"
+    };
+  },
+  computed: {
+    currentPage() {
+      // console.log($route.name);
+      return this.$route.name;
+    }
+  }
+};
+</script>

@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.nav__links {
+    list-style: none;
+
+    li {
+        display: inline-block;
+        margin: 0 0.7rem;
+        cursor: pointer;
+
+        a {
+            padding: 0.7rem 0;
+            transition: all 1s ease 0s;
+            color: $headingColor;
+
+            &:hover {
+                border-bottom: 2px solid $borderBelowColor;
+                color: $politeBlue;
+            }
+        }
+    }
+}
+
+.active {
+    opacity: 1;
+    visibility: visible;
+    border-bottom: 2px solid $headingColor;
+    padding: 0.7rem 0;
+}
+
+.notActive {
+    visibility: visible;
+}

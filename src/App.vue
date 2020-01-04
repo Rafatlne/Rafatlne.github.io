@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <Navbar />
-    </div>
+    <Navbar />
     <router-view />
   </div>
 </template>
@@ -18,4 +16,6 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+@import "./assets/sass/main.scss";
+</style>
