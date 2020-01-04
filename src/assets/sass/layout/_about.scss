@@ -29,11 +29,9 @@
     a {
         color: $headingColor;
         transition: all 0.3s ease 0s;
-        text-align: center;
-
         &:hover {
-            border-bottom: 1px solid $royalBlue;
-            color: $royalBlue;
+            border-bottom: 1px solid $light-blue;
+            color: $light-blue;
         }
     }
 }

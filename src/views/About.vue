@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <AboutSection avatar_name="avatar.jpg" aboutJsonName="about.json" />
   </div>
 </template>

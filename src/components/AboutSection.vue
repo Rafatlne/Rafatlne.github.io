@@ -1,131 +1,131 @@
 <template>
-  <div class="container about">
-    <div>
-      <!-- <ul>
+  <div class="about">
+    <!-- <ul>
       <li v-for="(item, key, index) in aboutData" :key="item.id">
         {{ item }} - {{ key }} - {{ index }}
       </li>
       <li>{{ avatar }}</li>
-      </ul>-->
-      <div>
-        <section class="resume__section">
-          <div class="avatar-wrapper">
-            <img
-              v-bind:src="getImgSrc(avatar_name)"
-              alt="avatar"
-              class="avatar"
-            />
-          </div>
-          <h1 v-text="fullName" class="header-about"></h1>
+    </ul>-->
+    <div>
+      <section class="resume__section">
+        <div class="avatar-wrapper">
+          <img
+            v-bind:src="getImgSrc(avatar_name)"
+            alt="avatar"
+            class="avatar"
+          />
+        </div>
+        <h1 v-text="fullName" class="header-about"></h1>
+        <div>
+          <span class="designation">{{ designation }} at</span>
+          <span class="span__underline">
+            <a
+              v-bind:href="organization.website"
+              v-text="organization.name"
+            ></a>
+          </span>
+        </div>
+        <div class="personal">
           <div>
-            <span class="designation">{{ designation }} at</span>
-            <span class="span__underline">
-              <a
-                v-bind:href="organization.website"
-                v-text="organization.name"
-              ></a>
+            <img
+              class="icon__img"
+              src="../assets/icons/icons8-address-30.png"
+            />
+            <span v-text="address"></span>
+          </div>
+          <div class="span__underline">
+            <img
+              class="icon__img"
+              src="../assets/icons/icons8-telephone-30.png"
+            />
+            <span>
+              <a v-bind:href="`tel:+${phone}`">{{ phone }}</a>
             </span>
           </div>
-          <div class="personal">
-            <div>
-              <img
-                class="icon__img"
-                src="../assets/icons/icons8-address-30.png"
-              />
-              <span v-text="address"></span>
-            </div>
-            <div class="span__underline">
-              <img
-                class="icon__img"
-                src="../assets/icons/icons8-telephone-30.png"
-              />
-              <span>
-                <a v-bind:href="`tel:+${phone}`">{{ phone }}</a>
-              </span>
-            </div>
-            <div class="span__underline">
-              <img
-                class="icon__img"
-                src="../assets/icons/icons8-email-30.png"
-              />
-              <a v-bind:href="`mailto:+${email}`">{{ email }}</a>
-            </div>
+          <div class="span__underline">
+            <img class="icon__img" src="../assets/icons/icons8-email-30.png" />
+            <a v-bind:href="`mailto:+${email}`">{{ email }}</a>
           </div>
-          <div class="personal">
-            <a
-              v-bind:href="value.link"
-              v-for="value in socials"
-              :key="value.id"
-              v-bind:title="value.name"
-            >
-              <img
-                class="icon__socials"
-                v-bind:src="getIconSrc(value.icon)"
-                alt
-              />
-            </a>
+        </div>
+        <div class="personal">
+          <a
+            v-bind:href="value.link"
+            v-for="value in socials"
+            :key="value.id"
+            v-bind:title="value.name"
+          >
+            <img
+              class="icon__socials"
+              v-bind:src="getIconSrc(value.icon)"
+              alt
+            />
+          </a>
+        </div>
+      </section>
+    </div>
+    <div>
+      <section class="resume__section">
+        <p
+          class="para__style"
+          v-text="item.para"
+          v-for="item in aboutMe"
+          :key="item.id"
+        ></p>
+        <div class="border__line">
+          <div class="preference-label">
+            <span>My hobbies</span>
           </div>
-        </section>
-      </div>
-      <div>
-        <section class="resume__section">
-          <p
-            class="para__style"
-            v-text="item.para"
-            v-for="item in aboutMe"
-            :key="item.id"
-          ></p>
-          <div class="border__line">
-            <div class="preference-label">
-              <span>My hobbies</span>
-            </div>
-            <div>
-              <span
-                class="post-tag hobby-tag"
-                v-for="hobby in hobbies"
-                :key="hobby.id"
-                v-text="hobby"
-              ></span>
-            </div>
+          <div>
+            <span
+              class="post-tag hobby-tag"
+              v-for="hobby in hobbies"
+              :key="hobby.id"
+              v-text="hobby"
+            ></span>
           </div>
-          <div class="border__line">
-            <div class="preference-label">
-              <span>I want to work with</span>
-            </div>
-            <div>
-              <span
-                class="post-tag interest-tag"
-                v-for="tech in techInterested"
-                :key="tech.id"
-                v-text="tech"
-              ></span>
-            </div>
+        </div>
+        <div class="border__line">
+          <div class="preference-label">
+            <span>I want to work with</span>
           </div>
-          <div class="border__line">
-            <div class="preference-label">
-              <span>I prefer not to work with</span>
-            </div>
-            <div>
-              <span
-                class="post-tag disliked-tag"
-                v-for="techNo in techNotInterested"
-                :key="techNo.id"
-                v-text="techNo"
-              ></span>
-            </div>
+          <div>
+            <span
+              class="post-tag interest-tag"
+              v-for="tech in techInterested"
+              :key="tech.id"
+              v-text="tech"
+            ></span>
           </div>
-        </section>
-      </div>
+        </div>
+        <div class="border__line">
+          <div class="preference-label">
+            <span>I prefer not to work with</span>
+          </div>
+          <div>
+            <span
+              class="post-tag disliked-tag"
+              v-for="techNo in techNotInterested"
+              :key="techNo.id"
+              v-text="techNo"
+            ></span>
+          </div>
+        </div>
+      </section>
+      <ExperienceSection experienceJsonName="experience.json" />
     </div>
   </div>
 </template>
 
 <script>
-import About from "../mixins/About.js";
-const about = new About();
+import ExperienceSection from "./ExperienceSection.vue";
+import GetJson from "../mixins/GetJson";
+const getJson = new GetJson();
 
 export default {
   name: "AboutSection",
+  components: {
+    ExperienceSection
+  },
   props: {
     avatar_name: String,
     aboutJsonName: String
@@ -164,7 +164,7 @@ export default {
     }
   },
   created() {
-    const aboutData = about.getAlldata(this.aboutJsonName);
+    const aboutData = getJson.getAlldata(this.aboutJsonName);
     this.fullName = aboutData.fullName;
     this.designation = aboutData.designation;
     this.organization = aboutData.organization;

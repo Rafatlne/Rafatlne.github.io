@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <header>
+    <header class="header">
       <nav>
         <ul class="nav__links">
           <li>

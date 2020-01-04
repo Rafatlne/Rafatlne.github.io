@@ -21,7 +21,11 @@ body {
 }
 
 li,
-a,
 button {
     text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: $headingColor;
 }

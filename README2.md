@@ -36,3 +36,18 @@ The above code can be simplified using object syntax:
 
 ### 6. Writing Media Queries with Sass mixins
 [Media Queries with Sass mixins](https://itnext.io/writing-media-queries-with-sass-mixins-3ea591ea3ea4)
+
+### 7. Convert HTML JSON string to plain HTML
+```
+{
+    "cat": "1",
+    "catUrl": "this-is-a-url",
+    "catSummary": "This is a summary with <a href=\"http://www.a.com\">a link</a>"
+}
+<template>
+  Something
+  <p>Another thing</p>
+  <div v-html="catSummary"> </div>
+   <p>Another thing</p>
+<template>
+```
