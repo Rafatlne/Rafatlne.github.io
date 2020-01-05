@@ -1,5 +1,27 @@
 .about {
-    margin: 2.8rem 1.4rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    @include for-tablet-landscape-up {
+        margin: 0 1.4rem;
+        padding: 2em 1em;
+    }
+
+    @include for-tablet-portrait-up {
+        margin: 0 1.4rem;
+        padding: 2em 1em;
+    }
+
+    @include for-phone-only {
+        margin: 0 1.4rem;
+        padding: 2em 1em;
+    }
+
+    @include for-desktop-up {
+        padding: 2em 0;
+    }
+
+
 }
 
 .avatar-wrapper {
@@ -29,6 +51,7 @@
     a {
         color: $headingColor;
         transition: all 0.3s ease 0s;
+
         &:hover {
             border-bottom: 1px solid $light-blue;
             color: $light-blue;
@@ -118,4 +141,23 @@
     &:hover {
         background-color: $whitish-ash;
     }
+}
+
+.col__left {
+
+    @include for-desktop-up {
+        margin-left: 8.333333%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+}
+
+.col__right {
+
+    @include for-desktop-up {
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+
 }

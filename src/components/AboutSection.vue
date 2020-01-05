@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <div>
+    <div class="col__left">
       <section class="resume__section">
         <div class="avatar-wrapper">
           <img
@@ -57,7 +57,7 @@
         </div>
       </section>
     </div>
-    <div>
+    <div class="col__right">
       <section class="resume__section">
         <p
           class="para__style"
@@ -108,8 +108,8 @@
       <ExperienceSection experienceJsonName="experience.json" />
       <EducationSection educationJsonName="education.json" />
       <ProjectSection projectJsonName="project.json" />
+      <FooterSection />
     </div>
-    <FooterSection />
   </div>
 </template>
 

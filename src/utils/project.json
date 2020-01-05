@@ -3,8 +3,8 @@
         "link": "https://github.com/Rafatlne/Rafatlne.github.io/tree/wip",
         "company": "Daffodil International University",
         "date": "2020",
-        "summary": "Developed my portfolio using vuejs and raw css",
-        "techs": ["vuejs", "raw css", "javascript"]
+        "summary": "Developed my portfolio while learning vuejs and sass. I didn't use any css framework during building this project",
+        "techs": ["vuejs", "javascript", "raw css", "scss"]
     },
     {
         "name": "Movi-Api",
@@ -52,7 +52,7 @@
         "company": "Daffodil International University",
         "date": "2017",
         "summary": "Developed an app which can manage a Cafeteria.",
-        "techs": ["java","java-swing", "oop", "sqlite"]
+        "techs": ["java", "java-swing", "oop", "sqlite"]
     },
     {
         "name": "Cafe YODO",
@@ -60,6 +60,6 @@
         "company": "Daffodil International University",
         "date": "2016",
         "summary": "A console app which can pretend it's a Cafeteria machine.",
-        "techs": ["C","data-structure"]
+        "techs": ["C", "data-structure"]
     }
 ]

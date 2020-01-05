@@ -15,16 +15,9 @@
   margin-right: auto;
   margin-left: auto;
 
-  @include for-phone-only {
-    max-width: 460px;
-  }
-
-  @include for-tablet-portrait-up {
-    max-width: 720px;
-  }
 
   @include for-tablet-landscape-up {
-    max-width: 960px;
+    width: 720px;
   }
 
   @include for-desktop-up {
