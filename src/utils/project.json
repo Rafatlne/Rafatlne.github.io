@@ -1,0 +1,65 @@
+[{
+        "name": "Vue-folio",
+        "link": "https://github.com/Rafatlne/Rafatlne.github.io/tree/wip",
+        "company": "Daffodil International University",
+        "date": "2020",
+        "summary": "Developed my portfolio while learning vuejs and sass. I didn't use any css framework during building this project",
+        "techs": ["vuejs", "javascript", "raw css", "scss"]
+    },
+    {
+        "name": "Movi-Api",
+        "link": "https://github.com/Rafatlne/Movie-api",
+        "company": "Daffodil International University",
+        "date": "2019",
+        "summary": "A nodejs api which will show movie names and actor details when user is authenticated.",
+        "techs": ["nodejs", "express", "mongodb", "jwt"]
+    },
+    {
+        "name": "Bangla Stemmer",
+        "link": "https://github.com/Rafatlne/Bangla-Stemmer-in-Python",
+        "company": "Daffodil International University",
+        "date": "2019",
+        "summary": "Python program that converts Bangla words to their corresponding stems.",
+        "techs": ["nodejs", "express", "mongodb", "jwt"]
+    },
+    {
+        "name": "Csv 2 geo",
+        "link": "https://github.com/Rafatlne/csv-to-geojson-in-python",
+        "company": "Code Samurai",
+        "date": "2019",
+        "summary": "Csv file to geojson in python. It will give type: \"LineString\" in geometry",
+        "techs": ["python", "geojson", "csv"]
+    },
+    {
+        "name": "SRMS",
+        "link": "https://github.com/Rafatlne/Student-Result-Management-System",
+        "company": "Daffodil International University",
+        "date": "2018",
+        "summary": "A student portal for creating, reading, updating, searching result of students.",
+        "techs": ["css", "javascript", "php", "oop", "mysql"]
+    },
+    {
+        "name": "School Management System",
+        "link": "https://github.com/Rafatlne/Student-management-system",
+        "company": "Daffodil International University",
+        "date": "2018",
+        "summary": "I developed a rest API for Roomie that will show empty rooms in university buildings.",
+        "techs": ["php", "mysql", "postman"]
+    },
+    {
+        "name": "DIU Cafeteria",
+        "link": "https://github.com/Esarve/diuCafeteria",
+        "company": "Daffodil International University",
+        "date": "2017",
+        "summary": "Developed an app which can manage a Cafeteria.",
+        "techs": ["java", "java-swing", "oop", "sqlite"]
+    },
+    {
+        "name": "Cafe YODO",
+        "link": "https://github.com/Rafatlne/Cafe-YODO-DS-Project-",
+        "company": "Daffodil International University",
+        "date": "2016",
+        "summary": "A console app which can pretend it's a Cafeteria machine.",
+        "techs": ["C", "data-structure"]
+    }
+]

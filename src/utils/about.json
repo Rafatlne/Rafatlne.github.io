@@ -1,0 +1,51 @@
+{
+    "fullName": "Ashik Ahamed Aman Rafat",
+    "designation": "Software Engineer Trainee",
+    "organization": {
+        "name": "Orangebd",
+        "website": "https://www.orangebd.com/"
+    },
+    "address": "Dhaka, Bangladesh",
+    "phone": "+880 152 143 19 20",
+    "email": "dev.rafath@gmail.com",
+    "socials": [{
+            "name": "stackoverflow profile",
+            "link": "https://stackoverflow.com/users/6273009/ashik-ahmed-aman-rafat",
+            "icon": "icons8-stack-overflow-30.png"
+        },
+        {
+            "name": "github",
+            "link": "https://github.com/Rafatlne",
+            "icon": "icons8-github-30.png"
+        },
+        {
+            "name": "linkedin",
+            "link": "https://www.linkedin.com/in/ashikrafat/",
+            "icon": "icons8-linkedin-30.png"
+        },
+        {
+            "name": "facebook",
+            "link": "https://www.facebook.com/ashik.rafath",
+            "icon": "icons8-facebook-30.png"
+        },
+        {
+            "name": "twitter",
+            "link": "https://twitter.com/AshikRafat",
+            "icon": "icons8-twitter-30.png"
+        }
+    ],
+    "aboutMe": [{
+            "para": "Programmer and casual gamer."
+        },
+        {
+            "para": "Middle of learning web technology."
+        },
+        {
+            "para": "I like web design, hope someday I will create some beautiful websites that I see in dribble/Behance."
+
+        }
+    ],
+    "hobbies": ["esports", "gaming", "tv series", "movies", "anime", "rock music", "browsing reddit"],
+    "techInterested": ["laravel", "vue.js", "node.js", "python", "rest"],
+    "techNotInterested": ["android", "jquery"]
+}

@@ -1,0 +1,72 @@
+[{
+        "designation": "Software Engineer Trainee",
+        "name": "Orange Business Development Limited",
+        "website": "https://www.orangebd.com/",
+        "location": "Dhaka, Bangladesh",
+        "date": {
+            "startDate": "Dec 2019",
+            "endDate": "Present"
+        },
+        "description": {
+            "summary": "Recently joined as a trainee developer to develop and provide a solution for fully customized CMS which is serving 50+ Bangladeshi <a href=\"https://www.orangebd.com/online-newspaperonline newspapers.\">Online Newspaper.</a>",
+            "website": null,
+            "bulletPoint": null
+        },
+        "techs": ["laravel", "vue.js", "jquery", "php", "javascript", "mysql"]
+    },
+    {
+        "designation": "Research and Development Engineer",
+        "name": "DIU - NLP and Machine Learning Research LAB",
+        "website": "https://diu-nlp-ml.github.io",
+        "location": "Dhaka, Bangladesh",
+        "date": {
+            "startDate": "Sept 2018",
+            "endDate": "Dec 2019"
+        },
+        "description": {
+            "summary": "Acted as an R&D engineer in different principles.I developed remarkable word embedding models for our Bangla language in the LAB and also built a Bangla text summarization using Deep Learning Algorithm.",
+            "website": "https://diu-nlp-ml.github.io",
+            "bulletPoint": [
+                "Worked closely with the team of reseachers of the club to improve accuracy of word embedding models for Bengali language.",
+                "Used machine learning and deep learning models to develop and evaluate algorithms for improving performance of Text Summarization of Bengali language.",
+                "Built the research lab’s introductory website."
+            ]
+        },
+        "techs": ["python", "gensim", "pytorch", "tensorflow", "numpy"]
+    }, {
+        "designation": "Back End Engineer",
+        "name": "Daffodil International University",
+        "website": "http://daffodilvarsity.edu.bd/",
+        "location": "Dhaka, Bangladesh",
+        "date": {
+            "startDate": "Sept 2018",
+            "endDate": "Dec 2018"
+        },
+        "description": {
+            "summary": "I developed a <a href=\"https://github.com/Rafatlne/DIU-FREE-ROOM-API\">rest API</a> for <a href=\"https://github.com/musfiqus/Roomie\">Roomie</a> that will show empty rooms in university buildings. This was project was given to us by the authority of DIU. I developed the rest API and my friend <a href=\"https://mushfiqussalehin.com/\"> mushfiqus</a> developed the android app",
+            "website": "https://github.com/Rafatlne/DIU-FREE-ROOM-API",
+            "bulletPoint": [
+                "First Teachers/Students have to register by their ID number which is given by University.",
+                "Then Teacher/Student can book the empty room for their extra classes. Teacher/student can update/delete their request.",
+                "Also, students/teachers can pre-book a room, if the selected room empty sometimes they will get a notification."
+            ]
+        },
+        "techs": ["php", "postman", "rest", "mysql"]
+    }, {
+        "designation": "Instructor and Lab Assistant",
+        "name": "Daffodil International University",
+        "website": "http://daffodilvarsity.edu.bd/",
+        "location": "Dhaka, Bangladesh",
+        "date": {
+            "startDate": "Jan 2018",
+            "endDate": "April 2019"
+        },
+        "description": {
+            "summary": "Assisted the course teachers in Algorithms, Programming and Problem Solving , Simulation and Modeling and Artificial Intelligence course.",
+            "website": "http://daffodilvarsity.edu.bd/",
+            "bulletPoint": null
+        },
+        "techs": ["c", "python", "prolog"]
+    }
+
+]
