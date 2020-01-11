@@ -1,5 +1,7 @@
 <template>
-  <h3>resume page</h3>
+  <div class="container">
+    <h1 align="center">Working In Progress</h1>
+  </div>
 </template>
 
 <script>
